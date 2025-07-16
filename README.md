@@ -1,6 +1,6 @@
 # holbertonschool-web-development
 Description
-This project is part of Holberton School’s HTML Advanced curriculum. The objective is to build a full semantic HTML structure for the SmileSchool landing page, based on a Figma design. This project focuses purely on HTML structure — no CSS or JavaScript styling is applied.
+This project is part of Holberton School’s HTML Advanced curriculum. The objective is to build a full semantic HTML structure for the SmileSchool landing page, based on a Figma design. First project focuses purely on HTML structure — no CSS or JavaScript styling is applied.
 
 📚 Learning Objectives
 At the end of this project, I’m able to explain:
