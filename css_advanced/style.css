@@ -10,7 +10,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 35px 170px;
-    color: white;
+    margin-bottom: 150px;
 }
 
 .top-bg {
@@ -20,15 +20,54 @@ header {
     background-repeat: no-repeat;
 }
 
-a
-{
-text-decoration: none;
-color: white;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-li, ul {
+li,
+ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 35px;
+}
+
+h1 {
+    font-size: 125px;
+    text-align: center;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+h1,
+.list,
+header {
+    color: white;
+    font-weight: bold;
+}
+
+.register {
+    background-color: #C271FF;
+    color: white;
+    width: 162px;
+    height: 44px;
+    display: flex;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
