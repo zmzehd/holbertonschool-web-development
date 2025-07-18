@@ -298,3 +298,36 @@ h3 {
     font-weight: 300;
     margin-bottom: 50px;
 }
+.first-header-4{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px;
+}
+.rowblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+}
+.itemblock{
+    display: flex;
+    flex-direction: column;
+width: 350px;   
+line-height: 24px;
+gap: 25px;
+
+}
+.itemblock> p{
+    color: rgb(106, 106, 106);
+    font-weight: 400;
+}
