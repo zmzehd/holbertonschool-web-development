@@ -101,7 +101,7 @@ open index.html
 ```
 
 Or see the live version here:
-👉 [Live Demo](https://zmzehd.github.io/holbertonschool-web-development/css_advanced/index.html)
+👉 [Live Demo](https://zmzehd.github.io/holbertonschool-web-development/html_advanced/index.html)
 
 ---
 
