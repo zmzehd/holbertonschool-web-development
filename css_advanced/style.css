@@ -61,8 +61,8 @@ ul {
 
 }
 
-.stars{
-    display:flex ;
+.stars {
+    display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
@@ -260,7 +260,8 @@ h3 {
     transform: translate(-50%, -50%) scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
-.membership{
+
+.membership {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,15 +269,17 @@ h3 {
     background-color: #071629;
     gap: 30px;
 }
-.membership-content{
+
+.membership-content {
     display: flex;
     flex-direction: row;
     gap: 100px;
     align-items: center;
- margin-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 }
-.membership-items{
+
+.membership-items {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -288,46 +291,84 @@ h3 {
     font-weight: 400;
     text-align: center;
 }
-.second-header-3{
+
+.second-header-3 {
     font-weight: 400;
 }
-.header-first-3{
+
+.header-first-3 {
     font-size: 36px;
     text-align: center;
     color: white;
     font-weight: 300;
     margin-bottom: 50px;
 }
-.first-header-4{
+
+.first-header-4 {
     font-size: 60px;
     text-align: center;
     font-weight: 300;
     margin-top: 100px;
     margin-bottom: 50px;
 }
-.blocks{
+
+.blocks {
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 80px;
 }
-.rowblock{
+
+.rowblock {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-    
-}
-.itemblock{
-    display: flex;
-    flex-direction: column;
-width: 350px;   
-line-height: 24px;
-gap: 25px;
 
 }
-.itemblock> p{
+
+.itemblock {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    line-height: 24px;
+    gap: 25px;
+
+}
+
+.itemblock>p {
     color: rgb(106, 106, 106);
     font-weight: 400;
+}
+
+footer {
+    background-color: #071629;
+    padding: 120px 150px 50px 150px;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>p {
+    color: rgb(99, 99, 99);
+    text-align: center;
+    height: min-content;
+    padding-top: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social-logo:hover {
+    cursor: pointer;
+
 }
